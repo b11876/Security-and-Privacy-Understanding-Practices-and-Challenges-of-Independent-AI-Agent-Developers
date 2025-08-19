@@ -1,1 +1,2 @@
 # “Come from users and think about users”: Understanding the Privacy and Security Practices and Challenges of Individual AI Agent Developers
+This repository hosts the artifact for our paper, " "Come from users and think about users": Understanding the Privacy and Security Practices and Challenges of Individual AI Agent Developers" Detailed information and instructions can be found in the README.md file located in the root directory.
