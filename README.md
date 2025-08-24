@@ -3,4 +3,4 @@ This repository hosts the artifact for our paper, " "Come from users and think a
 
 The interview script contains an interview outline for discussions with individual AI Agent developers, primarily covering four sections: General Understanding, Development Practices and Tools, Probe/Security Scenarios, and Expectations.
 
-The table includes themes for three RQ research questions, along with their subthemes and descriptions.
+The codebook for the data analysis includes themes for three RQ research questions, along with their subthemes and descriptions.
