@@ -61,7 +61,7 @@ Thank you for participating in this interview study. We are researching how indi
 
 ## Part 4. Expectation
 
-###From platform's perspective 
+### From platform's perspective 
 
 1. What specific tools, features, or guidelines do you wish AI agent development platforms (such as OpenAI or other frameworks) would provide to help you build safer and more privacy-focused agents? (e.g., built-in security scanning, privacy dashboards, standardized consent authorization processes)
   
@@ -71,7 +71,7 @@ Thank you for participating in this interview study. We are researching how indi
 
 4. What role do you believe platforms should play in supporting individual developers or their agents? How can this role be made most effective?
 
-###From law's perspective
+### From law's perspective
   
 1. What role do you believe legal factors can play, what are the current shortcomings, and what kind of support is needed?
 
@@ -79,7 +79,7 @@ Thank you for participating in this interview study. We are researching how indi
  
 1. What specific tools do you believe are needed, what roles can these tools play, and what kind of support do you need them to provide to you?
 
-###From others' perspective
+### From others' perspective
   
 1. What other types of support do you believe you still need?
 
