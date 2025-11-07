@@ -1,0 +1,26 @@
+name: keep-4open-alive
+
+on:
+  schedule:
+    - cron: '0 3 * * *'   # 每天 03:00 UTC 触发（可按需改时间）
+  workflow_dispatch:       # 需要时手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: keep-4open-alive
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Empty commit [skip ci]
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --allow-empty -m "chore: keepalive refresh [skip ci]"
+          git push
