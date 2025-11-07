@@ -2,8 +2,8 @@ name: keep-4open-alive
 
 on:
   schedule:
-    - cron: '0 3 * * *'   # 每天 03:00 UTC 触发（可按需改时间）
-  workflow_dispatch:       # 需要时手动触发
+    - cron: '0 3 * * *'   
+  workflow_dispatch:       
 
 permissions:
   contents: write
